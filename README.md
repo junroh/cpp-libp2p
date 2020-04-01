@@ -45,7 +45,7 @@ cmake -DCLANG_TIDY=ON ..
 make -j
 ```
 
-It is suggested to build project with clang-tidy checks, however if you wish to omit clang-tidy step, you can use `cmake ..` instead.
+It is suggested to build project with clang-tidy checks, however if you wish to omit clang-tidy step, you can use `cmake -DCLANG_TIDY=OFF..` instead.
 
 Tests can be run with: 
 ```
